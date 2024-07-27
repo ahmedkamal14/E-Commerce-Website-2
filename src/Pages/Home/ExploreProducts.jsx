@@ -37,7 +37,7 @@ const ExploreProducts = () => {
       </div>
 
       <div className="flex justify-center mb-5">
-        <Link to={"/shop"}>
+        <Link to={"/E-Commerce-Website-2/shop"}>
           <button className="btn bg-red-500 text-white px-6 py-3 rounded-md hover:bg-red-400 transition-all duration-300">
             View All Products
           </button>

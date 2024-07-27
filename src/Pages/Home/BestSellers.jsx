@@ -33,7 +33,7 @@ const BestSellers = () => {
           best selling products
         </h1>
         <div className="flex justify-center my-5">
-          <Link to={"/shop"}>
+          <Link to={"/E-Commerce-Website-2/shop"}>
             <button className="btn bg-red-500 text-white px-6 py-3 rounded-md hover:bg-red-400 transition-all duration-300">
               View All Products
             </button>
@@ -69,7 +69,10 @@ const BestSellers = () => {
             products.slice(0, 10).map((item) => (
               <SwiperSlide key={item.id} className="mb-10">
                 <div>
-                  <Link to={`/shop/${item.id}`} key={item.id}>
+                  <Link
+                    to={`/E-Commerce-Website-2/shop/${item.id}`}
+                    key={item.id}
+                  >
                     <img
                       src={item.image}
                       alt={item.title}

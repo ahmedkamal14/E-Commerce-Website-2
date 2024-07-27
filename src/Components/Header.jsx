@@ -34,42 +34,52 @@ const Header = () => {
     <div>
       <div className="max-w-[1800px] mx-auto px-8 flex items-center justify-between pt-10 pb-5">
         <div className="main-title">
-          <Link to={"/"}>
+          <Link to={"/E-Commerce-Website-2/"}>
             <h1 className="font-semibold text-4xl">Shopify</h1>
           </Link>
         </div>
         <div className="links flex-col md:flex-row justify-between items-center gap-8 hidden md:flex">
           <Link
-            to="/"
-            className={activeLink === "/" ? "link-active" : "hover:underline"}
-            onClick={() => handleActiveLink("/")}
+            to="/E-Commerce-Website-2/"
+            className={
+              activeLink === "/E-Commerce-Website-2/"
+                ? "link-active"
+                : "hover:underline"
+            }
+            onClick={() => handleActiveLink("/E-Commerce-Website-2/")}
           >
             <h2>Home</h2>
           </Link>
           <Link
-            to="/contact"
+            to="/E-Commerce-Website-2/contact"
             className={
-              activeLink === "/contact" ? "link-active" : "hover:underline"
+              activeLink === "/E-Commerce-Website-2/contact"
+                ? "link-active"
+                : "hover:underline"
             }
-            onClick={() => handleActiveLink("/contact")}
+            onClick={() => handleActiveLink("/E-Commerce-Website-2/contact")}
           >
             <h2>Contact</h2>
           </Link>
           <Link
-            to="/about"
+            to="/E-Commerce-Website-2/about"
             className={
-              activeLink === "/about" ? "link-active" : "hover:underline"
+              activeLink === "/E-Commerce-Website-2/about"
+                ? "link-active"
+                : "hover:underline"
             }
-            onClick={() => handleActiveLink("/about")}
+            onClick={() => handleActiveLink("/E-Commerce-Website-2/about")}
           >
             <h2>About</h2>
           </Link>
           <Link
-            to="/signup"
+            to="/E-Commerce-Website-2/signup"
             className={
-              activeLink === "/signup" ? "link-active" : "hover:underline"
+              activeLink === "/E-Commerce-Website-2/signup"
+                ? "link-active"
+                : "hover:underline"
             }
-            onClick={() => handleActiveLink("/signup")}
+            onClick={() => handleActiveLink("/E-Commerce-Website-2/signup")}
           >
             <h2>Sign Up</h2>
           </Link>
@@ -90,12 +100,12 @@ const Header = () => {
           {/* Favourites and Cart */}
           <div className="fav-cart hidden lg:flex items-center justify-center text-2xl relative">
             <button className="me-3">
-              <Link to={"/signup"}>
+              <Link to={"/E-Commerce-Website-2/signup"}>
                 <FaRegUser className="hover:text-orange-500" />
               </Link>
             </button>
             <button className="relative">
-              <Link to={"/cart"}>
+              <Link to={"/E-Commerce-Website-2/cart"}>
                 <BsCart3 className="hover:text-orange-500" />
                 {totalItemsInCart > 0 && (
                   <div className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">
@@ -123,36 +133,46 @@ const Header = () => {
       {isMenuOpen && (
         <div className="links flex flex-col items-center justify-between gap-4 mt-3 bg-secondary1 rounded-xl py-2">
           <Link
-            to="/"
-            className={activeLink === "/" ? "link-active" : "hover:underline"}
-            onClick={() => handleActiveLink("/")}
+            to="/E-Commerce-Website-2/"
+            className={
+              activeLink === "/E-Commerce-Website-2/"
+                ? "link-active"
+                : "hover:underline"
+            }
+            onClick={() => handleActiveLink("/E-Commerce-Website-2/")}
           >
             <h2>Home</h2>
           </Link>
           <Link
-            to="/contact"
+            to="/E-Commerce-Website-2/contact"
             className={
-              activeLink === "/contact" ? "link-active" : "hover:underline"
+              activeLink === "/E-Commerce-Website-2/contact"
+                ? "link-active"
+                : "hover:underline"
             }
-            onClick={() => handleActiveLink("/contact")}
+            onClick={() => handleActiveLink("/E-Commerce-Website-2/contact")}
           >
             <h2>Contact</h2>
           </Link>
           <Link
-            to="/about"
+            to="/E-Commerce-Website-2/about"
             className={
-              activeLink === "/about" ? "link-active" : "hover:underline"
+              activeLink === "/E-Commerce-Website-2/about"
+                ? "link-active"
+                : "hover:underline"
             }
-            onClick={() => handleActiveLink("/about")}
+            onClick={() => handleActiveLink("/E-Commerce-Website-2/about")}
           >
             <h2>About</h2>
           </Link>
           <Link
-            to="/signup"
+            to="/E-Commerce-Website-2/signup"
             className={
-              activeLink === "/signup" ? "link-active" : "hover:underline"
+              activeLink === "/E-Commerce-Website-2/signup"
+                ? "link-active"
+                : "hover:underline"
             }
-            onClick={() => handleActiveLink("/signup")}
+            onClick={() => handleActiveLink("/E-Commerce-Website-2/signup")}
           >
             <h2>Sign Up</h2>
           </Link>

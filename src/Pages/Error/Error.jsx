@@ -5,7 +5,7 @@ const Error = () => {
     <div className="max-w-[1800px] mx-auto px-8 my-12 flex flex-col">
       <div>
         <p className="text-black/50">
-          <Link to={"/"}>Home</Link> /{" "}
+          <Link to={"/E-Commerce-Website-2/"}>Home</Link> /{" "}
           <span className="text-black font-bold underline">404 Error</span>
         </p>
       </div>

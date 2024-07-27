@@ -13,47 +13,47 @@ const BrowseCategory = () => {
     {
       title: "Phones",
       icon: <CiMobile3 />,
-      link: "/shop",
+      link: "/E-Commerce-Website-2/shop",
     },
     {
       title: "Computers",
       icon: <MdOutlineComputer />,
-      link: "/shop",
+      link: "/E-Commerce-Website-2/shop",
     },
     {
       title: "Camera",
       icon: <IoCameraOutline />,
-      link: "/shop",
+      link: "/E-Commerce-Website-2/shop",
     },
     {
       title: "Smart Watch",
       icon: <IoWatchOutline />,
-      link: "/shop",
+      link: "/E-Commerce-Website-2/shop",
     },
     {
       title: "Headphone",
       icon: <PiHeadphonesThin />,
-      link: "/shop",
+      link: "/E-Commerce-Website-2/shop",
     },
     {
       title: "Gaming",
       icon: <IoGameControllerOutline />,
-      link: "/shop",
+      link: "/E-Commerce-Website-2/shop",
     },
     {
       title: "Phones",
       icon: <CiMobile3 />,
-      link: "/shop",
+      link: "/E-Commerce-Website-2/shop",
     },
     {
       title: "Computers",
       icon: <MdOutlineComputer />,
-      link: "/shop",
+      link: "/E-Commerce-Website-2/shop",
     },
     {
       title: "Camera",
       icon: <IoCameraOutline />,
-      link: "/shop",
+      link: "/E-Commerce-Website-2/shop",
     },
   ];
 

@@ -16,37 +16,37 @@ const About = () => {
       id: 0,
       name: "Tom Cruise",
       pos: "Founder & Chairman",
-      img: "../../public/team1.png",
+      img: "./team1.png",
     },
     {
       id: 1,
       name: "Emma Watson",
       pos: "Managing Director",
-      img: "../../public/team2.png",
+      img: "./team2.png",
     },
     {
       id: 3,
       name: "Will Smith",
       pos: "Product Designer",
-      img: "../../public/team3.png",
+      img: "./team3.png",
     },
     {
       id: 4,
       name: "Tom Cruise",
       pos: "Founder & Chairman",
-      img: "../../public/team1.png",
+      img: "./team1.png",
     },
     {
       id: 5,
       name: "Emma Watson",
       pos: "Managing Director",
-      img: "../../public/team2.png",
+      img: "./team2.png",
     },
     {
       id: 6,
       name: "Will Smith",
       pos: "Product Designer",
-      img: "../../public/team3.png",
+      img: "./team3.png",
     },
   ];
   const feat = [
@@ -97,7 +97,7 @@ const About = () => {
           </p>
         </div>
         <div className="img mb-8">
-          <img src="../../public/about.png" alt="Shopify" />
+          <img src="./about.png" alt="Shopify" />
         </div>
       </div>
 

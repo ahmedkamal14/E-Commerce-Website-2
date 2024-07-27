@@ -4,7 +4,7 @@ const SignUp = () => {
   return (
     <div className="max-w-[1800px] mx-auto px-8 flex items-center py-12 pe-12 lg;pe-32 justify-between gap-8">
       <div className="img hidden md:flex md:w-[60%]">
-        <img src="../../public/signup.png" alt="fashion" />
+        <img src="./signup.png" alt="fashion" />
       </div>
       <div className="form flex flex-col gap-2 w-full md:w-[35%] justify-center">
         <h1 className="text-5xl">Create an account</h1>
@@ -40,12 +40,15 @@ const SignUp = () => {
             Create Account
           </button>
           <button className="flex w-full justify-center items-center py-4 border-slate-500 border">
-            <img src="../../public/google.png" alt="google" className="me-3" />
+            <img src="./google.png" alt="google" className="me-3" />
             Sign Up With Google
           </button>
           <p className="w-full text-center py-5 text-black/50">
             Already have account?{" "}
-            <Link className=" underline font-semibold text-black" to={"/login"}>
+            <Link
+              className=" underline font-semibold text-black"
+              to={"/E-Commerce-Website-2/login"}
+            >
               Log In
             </Link>
           </p>

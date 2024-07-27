@@ -4,7 +4,7 @@ const LogIn = () => {
   return (
     <div className="max-w-[1800px] mx-auto px-8 flex items-center py-12 pe-12 lg;pe-32 justify-between gap-8">
       <div className="img hidden md:flex md:w-[60%]">
-        <img src="../../public/signup.png" alt="fashion" />
+        <img src="./signup.png" alt="fashion" />
       </div>
       <div className="form flex flex-col gap-2 w-full md:w-[35%] justify-center">
         <h1 className="text-3xl lg:text-5xl">Log In to Shopify</h1>
@@ -41,7 +41,7 @@ const LogIn = () => {
 
           <div className="w-full text-center">
             <Link
-              to={"/signup"}
+              to={"/E-Commerce-Website-2/signup"}
               className="text-red-500 font-bold text-xl underline"
             >
               Sign Up

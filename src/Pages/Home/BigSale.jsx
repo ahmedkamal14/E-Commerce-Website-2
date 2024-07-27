@@ -48,7 +48,7 @@ const BigSale = () => {
         </button>
       </div>
       <div className="img">
-        <img src="../public/products/sale.png" alt="big sale" className="object-cover"/>
+        <img src="./products/sale.png" alt="big sale" className="object-cover" />
       </div>
     </div>
   );

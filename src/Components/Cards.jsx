@@ -51,7 +51,7 @@ const Cards = (props) => {
         const cartItem = getCartItem(item.id);
         return (
           <div key={item.id}>
-            <Link to={`/shop/${item.id}`} key={item.id}>
+            <Link to={`/E-Commerce-Website-2/shop/${item.id}`} key={item.id}>
               <img
                 src={item.image}
                 alt={item.title}

@@ -14,39 +14,39 @@ import Cart from "./Pages/Cart/Cart.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/E-Commerce-Website-2/",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/E-Commerce-Website-2/",
         element: <Home />,
       },
       {
-        path: "/shop",
+        path: "/E-Commerce-Website-2/shop",
         element: <Shop />,
       },
       {
-        path: "/signup",
+        path: "/E-Commerce-Website-2/signup",
         element: <SignUp />,
       },
       {
-        path: "/cart",
+        path: "/E-Commerce-Website-2/cart",
         element: <Cart />,
       },
       {
-        path: "/login",
+        path: "/E-Commerce-Website-2/login",
         element: <LogIn />,
       },
       {
-        path: "/contact",
+        path: "/E-Commerce-Website-2/contact",
         element: <Contact />,
       },
       {
-        path: "/about",
+        path: "/E-Commerce-Website-2/about",
         element: <About />,
       },
       {
-        path: "/*",
+        path: "/E-Commerce-Website-2/*",
         element: <Error />,
       },
     ],

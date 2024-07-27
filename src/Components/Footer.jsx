@@ -66,19 +66,19 @@ const Footer = () => {
           <h2 className="text-2xl mb-3 font-semibold">My Account</h2>
           <ul className="flex flex-col gap-3 items-start">
             <button className="hover:text-white/45">
-              <Link to={"/myaccount"}>Account</Link>
+              <Link to={"/E-Commerce-Website-2/myaccount"}>Account</Link>
             </button>
             <button className="hover:text-white/45">
-              <Link to={"/register"}>Login / Register</Link>
+              <Link to={"/E-Commerce-Website-2/login"}>Login / Register</Link>
             </button>
             <button className="hover:text-white/45">
-              <Link to={"/cart"}>Cart</Link>
+              <Link to={"/E-Commerce-Website-2/cart"}>Cart</Link>
             </button>
             <button className="hover:text-white/45">
-              <Link to={"/wishlist"}>Wishlist</Link>
+              <Link to={"/E-Commerce-Website-2/wishlist"}>Wishlist</Link>
             </button>
             <button className="hover:text-white/45">
-              <Link to={"/"}>Shop</Link>
+              <Link to={"/E-Commerce-Website-2/shop"}>Shop</Link>
             </button>
           </ul>
         </div>
@@ -86,16 +86,16 @@ const Footer = () => {
           <h2 className="text-2xl mb-3 font-semibold">Quick Links</h2>
           <ul className="flex flex-col gap-3 items-start">
             <button className="hover:text-white/45">
-              <Link to={"/privacy"}>Privacy Policy</Link>
+              <Link to={"/E-Commerce-Website-2/privacy"}>Privacy Policy</Link>
             </button>
             <button className="hover:text-white/45">
-              <Link to={"/termsofuse"}>Terms Of Use</Link>
+              <Link to={"/E-Commerce-Website-2/termsofuse"}>Terms Of Use</Link>
             </button>
             <button className="hover:text-white/45">
-              <Link to={"/faq"}>FAQ</Link>
+              <Link to={"/E-Commerce-Website-2/faq"}>FAQ</Link>
             </button>
             <button className="hover:text-white/45">
-              <Link to={"/contact"}>Contact</Link>
+              <Link to={"/E-Commerce-Website-2/contact"}>Contact</Link>
             </button>
           </ul>
         </div>
@@ -105,21 +105,13 @@ const Footer = () => {
             save 3$ with App New User Only
           </p>
           <div className="flex gap-10">
-            <img src="../public/Qr Code.png" alt="appstore" className="w-32" />
+            <img src="./Qr Code.png" alt="appstore" className="w-32" />
             <div className="flex flex-col gap-5">
               <Link className="hover:cursor-pointer">
-                <img
-                  src="../public/google-play.png"
-                  alt="appstore"
-                  className="w-32"
-                />
+                <img src="./google-play.png" alt="appstore" className="w-32" />
               </Link>
               <Link className="hover:cursor-pointer">
-                <img
-                  src="../public/appstore.png"
-                  alt="appstore"
-                  className="w-32"
-                />
+                <img src="./appstore.png" alt="appstore" className="w-32" />
               </Link>
             </div>
           </div>

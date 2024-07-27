@@ -92,7 +92,7 @@ const Categories = () => {
               key={adds.id}
               className="flex flex-col items-center justify-center"
             >
-              <Link to={`/shop/${adds.id}`} key={adds.id}>
+              <Link to={`/E-Commerce-Website-2/shop/${adds.id}`} key={adds.id}>
                 <img
                   src={adds.image}
                   alt={adds.title}

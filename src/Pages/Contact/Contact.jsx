@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="max-w-[1800px] mx-auto px-8 my-12 flex flex-col">
       <div className="nav">
         <p className="text-black/50">
-          <Link to={"/"}>Home</Link> /{" "}
+          <Link to={"/E-Commerce-Website-2/"}>Home</Link> /{" "}
           <span className="text-black font-bold underline">Contact</span>
         </p>
       </div>
@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="info w-full md:w-[30%] p-5 md:p-10 rounded-md shadow-xl">
           <div className="call flex flex-col gap-6 mb-8">
             <div className="flex items-center">
-              <img src="../../public/call.png" alt="Call" className="me-3" />
+              <img src="./call.png" alt="Call" className="me-3" />
               <h1>Call To Us</h1>
             </div>
             <p>We are available 24/7, 7 days a week.</p>
@@ -23,7 +23,7 @@ const Contact = () => {
           <hr />
           <div className="write flex flex-col gap-6 mt-8">
             <div className="flex items-center">
-              <img src="../../public/call.png" alt="Call" className="me-3" />
+              <img src="./mail.png" alt="Call" className="me-3" />
               <h1>Write To US</h1>
             </div>
             <p>Fill out our form and we will contact you within 24 hours.</p>
