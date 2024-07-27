@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ahmedkamal14.github.io/E-Commerce-Website-2",
+  "homepage": "https://ahmedkamal14.github.io/E-Commerce-Website-2/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

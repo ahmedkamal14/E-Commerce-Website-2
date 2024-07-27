@@ -17,17 +17,17 @@ const Categories = () => {
     {
       id: 1,
       title: "Iphone Add",
-      image: "../../public/adds/add.png",
+      image: "./adds/add.png",
     },
     {
       id: 2,
       title: "Iphone Add",
-      image: "../../public/adds/add.png",
+      image: "./adds/add.png",
     },
     {
       id: 3,
       title: "Iphone Add",
-      image: "../../public/adds/add.png",
+      image: "./adds/add.png",
     },
   ];
 
