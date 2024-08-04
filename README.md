@@ -3,7 +3,7 @@
 **Website URL:** [Shopify](https://ahmedkamal14.github.io/E-Commerce-Website-2/)
 
 ## Overview
-The Shopify website designed by Ahmed Kamal is a modern and user-friendly platform tailored to provide an optimal online shopping experience. The site showcases a sleek and attractive design, intuitive navigation, and a comprehensive catalog of products that cater to a diverse range of customer needs.
+The Shopify website designed by Ahmed Kamal is a modern and user-friendly platform tailored to provide an optimal online shopping experience. The site showcases a sleek and attractive design, intuitive navigation, and a comprehensive catalog of products that cater to a diverse range of customer needs. Please note that the website is still a work in progress and may have some features or content that are yet to be completed.
 
 ## Key Features
 
@@ -36,4 +36,4 @@ The Shopify website designed by Ahmed Kamal is a modern and user-friendly platfo
 - Social media links and other contact details enhance customer communication and engagement.
 
 ## Conclusion
-Ahmed Kamal's [Shopify](https://ahmedkamal14.github.io/E-Commerce-Website-2/) website exemplifies a well-crafted, modern online store that prioritizes user experience and functionality. With its clean design, comprehensive product catalog, and user-friendly features, it is an excellent platform for online shopping, catering to the needs of today's consumers.
+Ahmed Kamal's [Shopify](https://ahmedkamal14.github.io/E-Commerce-Website-2/) website exemplifies a well-crafted, modern online store that prioritizes user experience and functionality. With its clean design, comprehensive product catalog, and user-friendly features, it is an excellent platform for online shopping, catering to the needs of today's consumers. Please note that the website is still a work in progress and may have some features or content that are yet to be completed.
